@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Group 31</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.127556831" y="0" width="61.4540466" height="62.2222222" rx="8"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="서브-중증도" transform="translate(-367.000000, -2887.000000)">
+            <g id="Group-34" transform="translate(303.000000, 2887.000000)">
+                <g id="Group-31" transform="translate(64.000000, 0.000000)">
+                    <g id="Group-2">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                        <g mask="url(#mask-2)">
+                            <g transform="translate(0.127557, 0.000000)">
+                                <polygon id="Rectangle" fill="#2AA70E" transform="translate(15.308886, 15.526615) rotate(-270.000000) translate(-15.308886, -15.526615) " points="-0.217729146 0.217729147 30.8355008 0.217729147 30.8355008 30.8355008 -0.217729146 30.8355008"></polygon>
+                                <polygon id="Rectangle-Copy" fill="#FFDD00" transform="translate(45.926658, 15.526615) rotate(-270.000000) translate(-45.926658, -15.526615) " points="30.4000425 0.217729147 61.4532725 0.217729147 61.4532725 30.8355008 30.4000425 30.8355008"></polygon>
+                                <polygon id="Rectangle-Copy-2" fill="#CD2C2C" transform="translate(15.308886, 46.579845) rotate(-270.000000) translate(-15.308886, -46.579845) " points="-0.217729147 31.2709591 30.8355008 31.2709591 30.8355008 61.8887308 -0.217729147 61.8887308"></polygon>
+                                <polygon id="Rectangle-Copy-3" fill="#1D1D1D" transform="translate(45.926658, 46.579845) rotate(-270.000000) translate(-45.926658, -46.579845) " points="30.4000425 31.2709591 61.4532725 31.2709591 61.4532725 61.8887308 30.4000425 61.8887308"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="1828640" transform="translate(44.444444, 44.444444)" fill-rule="nonzero">
+                        <path d="M17.7777778,0 C7.97471792,0 0,7.97471792 0,17.7777778 C0,27.5808376 7.97471792,35.5555556 17.7777778,35.5555556 C27.5808376,35.5555556 35.5555556,27.5808376 35.5555556,17.7777778 C35.5555556,7.97471792 27.5808376,0 17.7777778,0 Z" id="Path" fill="#2196F3"></path>
+                        <path d="M26.7881944,14.0104167 L17.1584744,23.6398654 C16.8695747,23.9287652 16.4903429,24.0741645 16.1111111,24.0741645 C15.7318793,24.0741645 15.3526476,23.9287652 15.0637478,23.6398654 L10.2490235,18.825141 C9.66959639,18.2459853 9.66959639,17.3095703 10.2490235,16.7304145 C10.8281792,16.1509874 11.7643229,16.1509874 12.34375,16.7304145 L16.1111111,20.4977756 L24.6934679,11.9156901 C25.2726237,11.3362631 26.2087674,11.3362631 26.7881944,11.9156901 C27.3673503,12.4948459 27.3673503,13.4309896 26.7881944,14.0104167 Z" id="Path" fill="#FAFAFA"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,10 +1,188 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="ko" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+        <title>STAT!</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <h1>test</h1>
+        <div class="wrap-a home">
+            <header>
+                <div class="container">
+                    <a href="/" class="logo">
+                        <img src="img/logo.svg" alt="logo">
+                    </a>
+                    <ul class="menu">
+                        <li class="couse">
+                            교육과정
+                            <div class="sub-menu">
+                                <a href="#">중증도 분류</a>
+                                <a href="#">개인보호구 착탈의</a>
+                            </div>
+                        </li>
+                        <li>도입문의</li>
+                    </ul>
+                    <div class="lang">
+                        ENG
+                    </div>
+                </div>
+                <button onclick="mobileMenu()" class="mobile-menu"></button>
+            </header>
+            <section class="hero-box">
+                <div class="container">
+                    <div class="txt-box">
+                        <h1>
+                            오늘보다 안전한<br>내일을 위해
+                        </h1>
+                        <h2>
+                            3D 메디컬 시뮬레이션<br><strong>뷰라보! 오픈베타</strong>에 참여해보세요.
+                        </h2>
+                        <div class="download-btn-box pc">
+                            <a href="#" class="googleplay">
+                                <img src="img/googleplay.svg" alt="">
+                                Google Play
+                            </a>
+                            <a href="#" class="appstore">
+                                <img src="img/apple.svg" alt="">
+                                App Store
+                            </a>
+                        </div>
+                        <div class="download-btn-box mobile">
+                            <a href="#">앱 다운로드</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="screenshot-box bg-sky">
+                <h1>재난에 대응하는 모든 사람을 위한<br>메디컬 교육 플랫폼, 뷰라보!</h1>
+                <h3>뷰라보는 중증도 분류, 개인보호구 착탈의를 시작으로<br>평소 실습이 어려웠던 메디컬 교육 콘텐츠 개발에 집중하고 있습니다.</h3>
+                <div class="ob1">
+                    <img src="img/dummy.png" alt="">
+                </div>
+
+            </section>
+            <section class="feature-box">
+                <div class="container">
+                    <ul>
+                        <li>
+                            <img src="img/feature1.svg" alt="" class="icon">
+                            <h1>가상환자시스템</h1>
+                            <p>교육시나리오에 따라 가상환자 케이스를 생성하는 알고리즘을 개발하여 무제한에 가까운 가상 환자 데이터를 제공합니다.</p>
+                        </li>
+                        <li>
+                            <img src="img/feature2.svg" alt="" class="icon">
+                            <h1>스마트 피드백</h1>
+                            <p>각 교육 과정마다 근거기반 임상 프로토콜을 적용하여 정확한 피드백을 제공합니다.</p>
+                        </li>
+                        <li>
+                            <img src="img/feature3.svg" alt="" class="icon">
+                            <h1>효과적인 교육</h1>
+                            <p>마이크로 러닝 기반으로 짧은 시간 내에 핵심 내용을 학습 할 수 있도록 제공합니다.</p>
+                        </li>
+                        <li>
+                            <img src="img/feature4.svg" alt="" class="icon">
+                            <h1>근거기반 의료교육</h1>
+                            <p>의료 빅데이터와 국내외 지침, 전문 의료교육기관의 자문으로 완성된 교육콘텐츠를 통해 근거기반 의료교육을 실현합니다.</p>
+                        </li>
+                        <li>
+                            <img src="img/feature5.svg" alt="" class="icon">
+                            <h1>안전한 교육환경</h1>
+                            <p>감염이나 의료사고 위험에 노출되지 않고 안전하게 실습을 진행할 수 있습니다.</p>
+                        </li>
+                        <li>
+                            <img src="img/feature6.svg" alt="" class="icon">
+                            <h1>쉬운 접근성</h1>
+                            <p>스마트폰, 태블릿, PC에서 이용 할 수 있도록 멀티 플랫폼을 지원합니다.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="program bg-sky">
+                <div class="container">
+                    <div class="txt-box">
+                        <strong>교육과정</strong>
+                        <h1>중증도 분류(Triage)</h1>
+                        <p>중증도 분류(Triage)는 환자 상태의 위중함에 따라 처치 우선순위를 정하는 방법입니다. 뷰라보에서는 'START' 분류 방법으로 환자의 처치 우선 순위를 정할 수 있습니다.</p>
+                        <a href="#">자세히 보기</a>
+                    </div>
+                    <div class="img-box">
+                        <img src="img/dummy.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="program">
+                <div class="container type2">
+                    <div class="img-box">
+                        <img src="img/dummy.png" alt="">
+                    </div>
+                    <div class="txt-box">
+                        <strong>교육과정</strong>
+                        <h1>개인보호구 착탈의</h1>
+                        <p>개인보호구는 감염에 노출되지 않도록 피부와 호흡기를 보호하기 착용합니다. 뷰라보에서는 질병관리본부 기준에 맞춰 개인보호구 착탈의 과정을 학습할 수 있습니다.</p>
+                        <a href="#">자세히 보기</a>
+                    </div>
+                </div>
+            </section>
+            <section class="consult-box bg-sky">
+                <div class="container">
+                    <div class="txt-box">
+                        <h1>교육자문파트너</h1>
+                        <p>
+                            뷰라보는 보다 건강하고 안전한 사회를 위해  검증된 파트너와 함께 의료교육 혁신을 만들어 갑니다.
+                        </p>
+                    </div>
+                    <div class="img-box">
+                        <img src="img/cunsult_img.png" alt="">
+                        <img src="img/cunsult_img.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="app-download-box pc">
+                <div class="container">
+                    <div class="txt-box">
+                        <h1>메디컬 교육 플랫폼 뷰라보!<br>오픈베타기간동안 무료로 이용해보세요.</h1>
+                        <div class="beta-date">
+                            2020.06.25 ~ 2020.08.28
+                        </div>
+                        <div class="download-btn-box">
+                            <a href="#" class="googleplay">
+                                <img src="img/googleplay.svg" alt="">
+                                Google Play
+                            </a>
+                            <a href="#" class="appstore">
+                                <img src="img/apple.svg" alt="">
+                                App Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="container">
+                    <ul class="menu">
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보 처리방침</a></li>
+                        <li class="contact"><a href="#">도입문의</a></li>
+                        <li class="facebook-link"><a href="#"><img src="img/facebook_icon.svg" alt=""></a></li>
+                    </ul>
+                    <div class="address">
+                        (주) 뉴베이스 | 대표 박선영 | 서울시 성동구 뚝섬로3길 11-5 2층 (주)뉴베이스<br>사업자 등록번호 : 120-88-08376
+                    </div>
+                    <div class="copyright">
+                        © 2020 NEWBASE
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script>
+        function mobileMenu() {
+           const mobileMneu = document.querySelector('.mobile-menu');
+           const mobileMneuBox = document.querySelector('header .container');
+           mobileMneu.classList.toggle('on');
+           mobileMneuBox.classList.toggle('on');
+        }
+        </script>
     </body>
 </html>
